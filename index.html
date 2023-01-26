@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADRESSAGE</title>
+</head>
+
+<body>
+
+    <!-- <div class="div_tableur">
+        <iframe class="tableur" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQBP-nJ_LCMFo4rum8OcS6ODEkRY5b_e8xmr00kJXKw7dhrZg9BK5VHcJAjcv5vk2xYTMJGV70zmkXx/pubhtml?widget=true&amp;headers=false"></iframe>
+    </div> -->
+
+    <div class="container_plan_infra">
+        <button class="bouton_1" onClick="myFunction1()">192.168.0.0/24</button>
+        <button class="bouton_2" onClick="myFunction2()">192.168.1.0/24</button>
+        <button class="bouton_3" onClick="myFunction3()">192.168.2.0/24</button>
+        <button class="bouton_4" onClick="myFunction4()">192.168.3.0/24</button>
+        <button class="bouton_5" onClick="myFunction5()">192.168.4.0/24</button>
+        <button class="bouton_6" onClick="myFunction6()">192.168.5.0/24</button>
+        <button class="bouton_7" onClick="myFunction7()">192.168.6.0/24</button>
+        <button class="bouton_8" onClick="myFunction8()">192.168.7.0/24</button>
+    </div>
+
+
+    <div class="content_plan_infra">
+        <div id="ip1"> <iframe class="tableur_1"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQBP-nJ_LCMFo4rum8OcS6ODEkRY5b_e8xmr00kJXKw7dhrZg9BK5VHcJAjcv5vk2xYTMJGV70zmkXx/pubhtml?widget=true&amp;headers=false"></iframe>
+        </div>
+        <div id="ip2"> <iframe class="tableur_2"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRboFney-dcikgT2GBtuaJtuQ9TnRkSkxovRveJ7TclZxuxmZKMjvTxUafsVnj4nOWclW5VchvBIspG/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        </div>
+        <div id="ip3"> <iframe class="tableur_3"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTcSa5KTxqVaML95mrOdhudLw60QAZvQ864MlmDtvc_G2giWuCnDjXdzjuaeNrGZnI86HUM3uvM3JvV/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        </div>
+        <div id="ip4"> <iframe class="tableur_4"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQrHkxDvXfPW0lowK119wqQPok6_R_JiazlQJggAg2D8axWS5wd76KAHdquCn8f5eeP4iKqrD9qGE-j/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        </div>
+        <div id="ip5"> <iframe class="tableur_5"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRO4jA4Qeq8jSviBm69apt2A3lXBbNnYcG36DodkukQ-QbHIjJs3L00NPrE-PYQZExjRrgvK2oNm9Gz/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        </div>
+        <div id="ip6"> <iframe class="tableur_6"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ2EQbq3W1S1sSUQs04T-pQGxlVWrfjuIc8gvQ_rYvwUdrOhHN1wrl6KtNptFuL0DcUU9L7OZNYBUMS/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        </div>
+        <div id="ip7"> <iframe class="tableur_7"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTfvx9weHo-uerVZh4KcDX3FT2oc0BbhDTts4wETi0AMLH9z-EPjxschmj3yt2Ny3xkgjPcRsBCP5oJ/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        </div>
+        <div id="ip8"> <iframe class="tableur_8"
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSEZWGarhBO9Y7CxJ9hDa4idYYrilQhj-MoVdWZSEXiAMp3LVEbbfDT1UlRiiGPEZI3BLWtY_gJZbeH/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+        const myFunction1 = () => {
+            document.getElementById("ip1").style.display = 'block'
+            document.getElementById("ip2").style.display = 'none'
+            document.getElementById("ip3").style.display = 'none'
+            document.getElementById("ip4").style.display = 'none'
+            document.getElementById("ip5").style.display = 'none'
+            document.getElementById("ip6").style.display = 'none'
+            document.getElementById("ip7").style.display = 'none'
+            document.getElementById("ip8").style.display = 'none'
+        }
+
+        const myFunction2 = () => {
+            document.getElementById("ip1").style.display = 'none'
+            document.getElementById("ip2").style.display = 'block'
+            document.getElementById("ip3").style.display = 'none'
+            document.getElementById("ip4").style.display = 'none'
+            document.getElementById("ip5").style.display = 'none'
+            document.getElementById("ip6").style.display = 'none'
+            document.getElementById("ip7").style.display = 'none'
+            document.getElementById("ip8").style.display = 'none'
+        }
+
+        const myFunction3 = () => {
+            document.getElementById("ip1").style.display = 'none'
+            document.getElementById("ip2").style.display = 'none'
+            document.getElementById("ip3").style.display = 'block'
+            document.getElementById("ip4").style.display = 'none'
+            document.getElementById("ip5").style.display = 'none'
+            document.getElementById("ip6").style.display = 'none'
+            document.getElementById("ip7").style.display = 'none'
+            document.getElementById("ip8").style.display = 'none'
+        }
+
+        const myFunction4 = () => {
+            document.getElementById("ip1").style.display = 'none'
+            document.getElementById("ip2").style.display = 'none'
+            document.getElementById("ip3").style.display = 'none'
+            document.getElementById("ip4").style.display = 'block'
+            document.getElementById("ip5").style.display = 'none'
+            document.getElementById("ip6").style.display = 'none'
+            document.getElementById("ip7").style.display = 'none'
+            document.getElementById("ip8").style.display = 'none'
+        }
+
+        const myFunction5 = () => {
+            document.getElementById("ip1").style.display = 'none'
+            document.getElementById("ip2").style.display = 'none'
+            document.getElementById("ip3").style.display = 'none'
+            document.getElementById("ip4").style.display = 'none'
+            document.getElementById("ip5").style.display = 'block'
+            document.getElementById("ip6").style.display = 'none'
+            document.getElementById("ip7").style.display = 'none'
+            document.getElementById("ip8").style.display = 'none'
+        }
+
+        const myFunction6 = () => {
+            document.getElementById("ip1").style.display = 'none'
+            document.getElementById("ip2").style.display = 'none'
+            document.getElementById("ip3").style.display = 'none'
+            document.getElementById("ip4").style.display = 'none'
+            document.getElementById("ip5").style.display = 'none'
+            document.getElementById("ip6").style.display = 'block'
+            document.getElementById("ip7").style.display = 'none'
+            document.getElementById("ip8").style.display = 'none'
+        }
+
+        const myFunction7 = () => {
+            document.getElementById("ip1").style.display = 'none'
+            document.getElementById("ip2").style.display = 'none'
+            document.getElementById("ip3").style.display = 'none'
+            document.getElementById("ip4").style.display = 'none'
+            document.getElementById("ip5").style.display = 'none'
+            document.getElementById("ip6").style.display = 'none'
+            document.getElementById("ip7").style.display = 'block'
+            document.getElementById("ip8").style.display = 'none'
+        }
+
+        const myFunction8 = () => {
+            document.getElementById("ip1").style.display = 'none'
+            document.getElementById("ip2").style.display = 'none'
+            document.getElementById("ip3").style.display = 'none'
+            document.getElementById("ip4").style.display = 'none'
+            document.getElementById("ip5").style.display = 'none'
+            document.getElementById("ip6").style.display = 'none'
+            document.getElementById("ip7").style.display = 'none'
+            document.getElementById("ip8").style.display = 'block'
+        }
+
+
+    </script>
+
+</body>
+
+</html>

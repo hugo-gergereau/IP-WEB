@@ -1,0 +1,152 @@
+body {
+    margin: 0%;
+    background-color: rgb(18, 20, 22);
+    overflow-x: hidden;
+}
+
+
+
+.container_plan_infra {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 150px;
+}
+
+
+.bouton_1 {
+    
+    border-radius: 10px;
+    text-shadow: black 8px 5px 15px;
+    box-shadow: black 10px 5px 15px;
+    background: rgb(18, 20, 22);
+    color: white;
+    width: 240px;
+    font-size: 25px;
+    margin-top: 25px;
+
+}
+
+.bouton_2,
+.bouton_3,
+.bouton_4,
+.bouton_5,
+.bouton_6,
+.bouton_7,
+.bouton_8 {
+    border-radius: 10px;
+    text-shadow: black 8px 5px 15px;
+    box-shadow: black 10px 5px 15px;
+    background: rgb(18, 20, 22);
+    color: white;
+    width: 240px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.bouton_1:hover,
+.bouton_2:hover,
+.bouton_3:hover,
+.bouton_4:hover,
+.bouton_5:hover,
+.bouton_6:hover,
+.bouton_7:hover,
+.bouton_8:hover {
+    text-shadow: 0px 0px 0px;
+    border-color: rgb(0, 162, 255);
+}
+
+
+
+
+.div_tableur {
+    display: flex;
+    width: 900px;
+    height: 900px;
+    background-color: blue;
+    border-radius: 12px;
+}
+
+.tableur_1 {
+    position: absolute;
+    width: 50%;
+    height: 98%;
+    left: 49%;
+    top: 0%;
+    border-radius: 12px;
+}
+
+.tableur_2 {
+    position: absolute;
+    width: 50%;
+    height: 120%;
+    border-radius: 12px;
+    left: 49%;
+    top: 0%;
+}
+
+.tableur_3 {
+    position: absolute;
+    width: 50%;
+    height: 120%;
+    border-radius: 12px;
+    left: 49%;
+    top: 0%;
+}
+
+.tableur_4 {
+    position: absolute;
+    width: 50%;
+    height: 120%;
+    border-radius: 12px;
+    left: 49%;
+    top: 0%;
+}
+
+.tableur_5 {
+    position: absolute;
+    width: 50%;
+    height: 120%;
+    border-radius: 12px;
+    left: 49%;
+    top: 0%;
+}
+
+.tableur_6 {
+    position: absolute;
+    width: 50%;
+    height: 120%;
+    border-radius: 12px;
+    left: 49%;
+    top: 0%;
+}
+
+.tableur_7 {
+    position: absolute;
+    width: 50%;
+    height: 120%;
+    border-radius: 12px;
+    left: 49%;
+    top: 0%;
+}
+
+.tableur_8 {
+    position: absolute;
+    width: 50%;
+    height: 120%;
+    border-radius: 12px;
+    left: 49%;
+    top: 0%;
+}
+
+#ip1 {}
+
+#ip2,
+#ip3,
+#ip4,
+#ip5,
+#ip6,
+#ip7,
+#ip8 {
+    display: none;
+}
